@@ -4,7 +4,7 @@
 
 ## Danksagung
 
-Vieleng Dang an [Herr Levin](https://github.com/HerrLevin), welcher die Ursprüngliche Sprache entworfen hat!
+Vieleng Dang an [Herr Levin](https://github.com/HerrLevin), welcher die ursprüngliche Sprache entworfen hat!
 
 ## Compiler
 
@@ -78,31 +78,31 @@ i bims 1 lauch vong zal her goenn dir 15!!!
 ## Kontrollstrukturen
 
 ```2k18
-bist du [bool]? (yup)
+bist du [bool]? yup
     [code wenn bool == true]
 real rap
-bist du [bool]? (nope)
+bist du [bool]? nope
     [code wenn bool == false]
 real rap
 ```
 
-Zeilen, bei denen [bool] zu true evaluieren muss, enden mit (yup). Umgekehrt mit (nope). Else gibts also nicht direkt. else-if ergibt sich durch mehrere "bist du ..."
+Zeilen, bei denen [bool] zu true evaluieren muss, enden mit [yup]. Umgekehrt mit [nope]. Else gibts also nicht direkt. Else-if ergibt sich durch mehrere "bist du ..."
 
 ## GOTO
 
-> Um ein Label zu setzen wird der Lattenzaun (auch Hashtag genannt) genannt verwendet.
+> Um ein Label zu setzen wird der Lattenzaun (auch Hashtag genannt) verwendet. Darauf folgt der Name des Labels.
 
 ```2k18
 [label]
 [irgendwelcher kot]
-gehe zu [label] du larry!!!
+g zu [label] du larry!!!
 ```
 
 Beispiel Endlosschleife
 
 ```2k18
 #lauch
-gehe zu #lauch du larry!!!
+g zu #lauch du larry!!!
 ```
 
 ## Ausgabe
@@ -138,4 +138,12 @@ Berechne die Summe (30 + 12)
 
 ```2k18
 was ist das fuer 1 sume vong 30 + 12 her?
+```
+
+Berechne die Summe (30 + 12) und weise das Ergebnis der Variable [lauch] zu.
+
+```2k18
+i bims 1 zal lauch goenn dir 0!!!
+
+lauch goenn dir was ist das fuer 1 sume vong 30 + 12 her?
 ```
