@@ -86,11 +86,11 @@ bist du [bool]? nope
 real rap
 ```
 
-Zeilen, bei denen [bool] zu true evaluieren muss, enden mit [yup]. Umgekehrt mit [nope]. Else gibts also nicht direkt. Else-if ergibt sich durch mehrere "bist du ..."
+Zeilen, bei denen `[bool]` zu true evaluieren muss, enden mit `[yup]`. Umgekehrt mit `[nope]`. Else gibts also nicht direkt. Else-if ergibt sich durch mehrere "bist du ..."
 
 ## GOTO
 
-> Um ein Label zu setzen wird der Lattenzaun (auch Hashtag genannt) verwendet. Darauf folgt der Name des Labels.
+Um ein Label zu setzen wird der Lattenzaun (auch Hashtag genannt) verwendet. Darauf folgt der Name des Labels.
 
 ```2k18
 [label]
@@ -110,7 +110,15 @@ g zu #lauch du larry!!!
 Gib Variablenname auf stdout aus.
 
 ```2k18
-gieb [variable]
+gieb [variable]!!!
+```
+
+## Eingabe
+
+Weißt der Variable den Wert der Eingabe zu.
+
+```2k18
+[variable] goenn dir 1gabe!!!
 ```
 
 ## Arithmetische und Logische Operationen
@@ -118,7 +126,7 @@ gieb [variable]
 Operationen können wie folgt aufgerufen werden. Die Anzahl der Argumente kann beliebig groß sein.
 
 ```2k18
-was ist das fuer 1 [operation] vong [arg1] + [arg2] + [argn] her?
+was ist das fuer 1 [operation] vong [arg1], [arg2], [argn] her?
 ```
 
 |Operation  |Beschreibung           |
@@ -137,13 +145,13 @@ Beispiel
 Berechne die Summe (30 + 12)
 
 ```2k18
-was ist das fuer 1 sume vong 30 + 12 her?
+was ist das fuer 1 sume vong 30, 12 her?
 ```
 
-Berechne die Summe (30 + 12) und weise das Ergebnis der Variable [lauch] zu.
+Berechne die Summe (30 + 12) und weise das Ergebnis der Variable `lauch zu.
 
 ```2k18
 i bims 1 zal lauch goenn dir 0!!!
 
-lauch goenn dir was ist das fuer 1 sume vong 30 + 12 her?
+lauch goenn dir was ist das fuer 1 sume vong 30, 12 her?
 ```
