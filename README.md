@@ -33,7 +33,7 @@ was ist das fuer 1 code?
 
 ## Halo Wörlt (AAL)
 
-Um das Hello World Beispiel möglichst kurz zu gestalten, hat 2k18 die Funktion integriert.
+> Um das Hello World Beispiel möglichst kurz zu gestalten, hat 2k18 die Funktion integriert.
 
 Beispiel
 
@@ -69,7 +69,7 @@ i bims 1 [name] vong [type] goenn dir [value]!!!
 
 ### Beispiel
 
-Die Variable `lauch` wird als Number mit einem Wert von `15` definiert.
+> Die Variable `lauch` wird als Number mit einem Wert von `15` definiert.
 
 ```2k18
 i bims 1 lauch vong zal her goenn dir 15!!!
@@ -90,7 +90,7 @@ Zeilen, bei denen `[bool]` zu true evaluieren muss, enden mit `[yup]`. Umgekehrt
 
 ## GOTO
 
-Um ein Label zu setzen wird der Lattenzaun (auch Hashtag genannt) verwendet. Darauf folgt der Name des Labels.
+> Um ein Label zu setzen wird der Lattenzaun (auch Hashtag genannt) verwendet. Darauf folgt der Name des Labels.
 
 ```2k18
 [label]
@@ -98,7 +98,7 @@ Um ein Label zu setzen wird der Lattenzaun (auch Hashtag genannt) verwendet. Dar
 g zu [label] du larry!!!
 ```
 
-Beispiel Endlosschleife
+> Beispiel Endlosschleife
 
 ```2k18
 #lauch
@@ -107,7 +107,7 @@ g zu #lauch du larry!!!
 
 ## Ausgabe
 
-Gib Variablenname auf stdout aus.
+> Gib Variablenname auf stdout aus.
 
 ```2k18
 gieb [variable]!!!
@@ -115,7 +115,7 @@ gieb [variable]!!!
 
 ## Eingabe
 
-Weißt der Variable den Wert der Eingabe zu.
+> Weist der Variable den Wert der Eingabe zu.
 
 ```2k18
 [variable] goenn dir 1gabe!!!
@@ -123,7 +123,7 @@ Weißt der Variable den Wert der Eingabe zu.
 
 ## Arithmetische und Logische Operationen
 
-Operationen können wie folgt aufgerufen werden. Die Anzahl der Argumente kann beliebig groß sein.
+> Operationen können wie folgt aufgerufen werden. Die Anzahl der Argumente kann beliebig groß sein.
 
 ```2k18
 was ist das fuer 1 [operation] vong [arg1], [arg2], [argn] her?
@@ -142,13 +142,13 @@ was ist das fuer 1 [operation] vong [arg1], [arg2], [argn] her?
 
 Beispiel
 
-Berechne die Summe (30 + 12)
+> Berechne die Summe (30 + 12)
 
 ```2k18
 was ist das fuer 1 sume vong 30, 12 her?
 ```
 
-Berechne die Summe (30 + 12) und weise das Ergebnis der Variable `lauch zu.
+> Berechne die Summe (30 + 12) und weise das Ergebnis der Variable `lauch` zu.
 
 ```2k18
 i bims 1 zal lauch goenn dir 0!!!
