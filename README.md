@@ -26,7 +26,7 @@ gez. Das Vongpiler Team.
 ---
 
 ```2k18
-was ist das fuer 1 code?
+was ist das für 1 code?
     [code]
 1 nicer!!!
 ```
@@ -38,7 +38,7 @@ Um das Hello World Beispiel möglichst kurz zu gestalten, hat 2k18 die Funktion 
 Beispiel
 
 ```2k18
-was ist das fuer 1 code?
+was ist das für 1 code?
     halo i bims!!! :X gibt Hello World aus!
 1 nicer!!!
 ```
@@ -56,7 +56,7 @@ was ist das fuer 1 code?
 > Variablen beginnen immer mit einem Buchstaben und bestehen anschließend aus Buchstaben und/oder Zahlen enthalten. Variablen müssen immer initialisiert werden.
 
 ```2k18
-i bims 1 [name] vong [type] goenn dir [value]!!!
+i bims 1 [name] vong [type] gönn dir [value]!!!
 ```
 
 ### Typen
@@ -72,7 +72,7 @@ i bims 1 [name] vong [type] goenn dir [value]!!!
 Die Variable `lauch` wird als Number mit einem Wert von `15` definiert.
 
 ```2k18
-i bims 1 lauch vong zal her goenn dir 15!!!
+i bims 1 lauch vong zal her gönn dir 15!!!
 ```
 
 ## Kontrollstrukturen
@@ -118,7 +118,7 @@ gieb [variable]
 Operationen können wie folgt aufgerufen werden. Die Anzahl der Argumente kann beliebig groß sein.
 
 ```2k18
-was ist das fuer 1 [operation] vong [arg1] + [arg2] + [argn] her?
+was ist das für 1 [operation] vong [arg1] + [arg2] + [argn] her?
 ```
 
 |Operation  |Beschreibung           |
@@ -137,5 +137,5 @@ Beispiel
 Berechne die Summe (30 + 12)
 
 ```2k18
-was ist das fuer 1 sume vong 30 + 12 her?
+was ist das für 1 sume vong 30 + 12 her?
 ```
