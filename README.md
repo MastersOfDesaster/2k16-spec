@@ -107,10 +107,10 @@ g zu #lauch du larry!!!
 
 ## Ausgabe
 
-> Gib Variablenname auf stdout aus.
+> Gib Variablenname auf stdout aus. Mit + können Variablen und Konstanten verkettet werden.
 
 ```2k18
-gieb [variable]!!!
+gieb [variable] + "du lauch"!!!
 ```
 
 ## Eingabe
