@@ -4,7 +4,7 @@
 
 ## Danksagung
 
-Vieleng Dang an [Herr Levin](https://github.com/HerrLevin), welcher die Ursprüngliche Sprache entworfen hat!
+Vieleng Dang an [Herr Levin](https://github.com/HerrLevin), welcher die ursprüngliche Sprache entworfen hat!
 
 ## Compiler
 
@@ -33,7 +33,7 @@ was ist das für 1 code?
 
 ## Halo Wörlt (AAL)
 
-Um das Hello World Beispiel möglichst kurz zu gestalten, hat 2k18 die Funktion integriert.
+> Um das Hello World Beispiel möglichst kurz zu gestalten, hat 2k18 die Funktion integriert.
 
 Beispiel
 
@@ -69,7 +69,7 @@ i bims 1 [name] vong [type] gönn dir [value]!!!
 
 ### Beispiel
 
-Die Variable `lauch` wird als Number mit einem Wert von `15` definiert.
+> Die Variable `lauch` wird als Number mit einem Wert von `15` definiert.
 
 ```2k18
 i bims 1 lauch vong zal her gönn dir 15!!!
@@ -78,44 +78,52 @@ i bims 1 lauch vong zal her gönn dir 15!!!
 ## Kontrollstrukturen
 
 ```2k18
-bist du [bool]? (yup)
+bist du [bool]? yup
     [code wenn bool == true]
 real rap
-bist du [bool]? (nope)
+bist du [bool]? nope
     [code wenn bool == false]
 real rap
 ```
 
-Zeilen, bei denen [bool] zu true evaluieren muss, enden mit (yup). Umgekehrt mit (nope). Else gibts also nicht direkt. else-if ergibt sich durch mehrere "bist du ..."
+Zeilen, bei denen `[bool]` zu true evaluieren muss, enden mit `[yup]`. Umgekehrt mit `[nope]`. Else gibts also nicht direkt. Else-if ergibt sich durch mehrere "bist du ..."
 
 ## GOTO
 
-> Um ein Label zu setzen wird der Lattenzaun (auch Hashtag genannt) genannt verwendet.
+> Um ein Label zu setzen wird der Lattenzaun (auch Hashtag genannt) verwendet. Darauf folgt der Name des Labels.
 
 ```2k18
 [label]
 [irgendwelcher kot]
-gehe zu [label] du larry!!!
+g zu [label] du larry!!!
 ```
 
-Beispiel Endlosschleife
+> Beispiel Endlosschleife
 
 ```2k18
 #lauch
-gehe zu #lauch du larry!!!
+g zu #lauch du larry!!!
 ```
 
 ## Ausgabe
 
-Gib Variablenname auf stdout aus.
+> Gib Variablenname auf stdout aus.
 
 ```2k18
-gieb [variable]
+gieb [variable]!!!
+```
+
+## Eingabe
+
+> Weist der Variable den Wert der Eingabe zu.
+
+```2k18
+[variable] goenn dir 1gabe!!!
 ```
 
 ## Arithmetische und Logische Operationen
 
-Operationen können wie folgt aufgerufen werden. Die Anzahl der Argumente kann beliebig groß sein.
+> Operationen können wie folgt aufgerufen werden. Die Anzahl der Argumente kann beliebig groß sein.
 
 ```2k18
 was ist das für 1 [operation] vong [arg1] + [arg2] + [argn] her?
@@ -134,7 +142,7 @@ was ist das für 1 [operation] vong [arg1] + [arg2] + [argn] her?
 
 Beispiel
 
-Berechne die Summe (30 + 12)
+> Berechne die Summe (30 + 12)
 
 ```2k18
 was ist das für 1 sume vong 30 + 12 her?
