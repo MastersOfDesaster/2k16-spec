@@ -1,4 +1,4 @@
-# 2k18 - 1 zimlich n:icecream:e Sprache
+# 2k18 - 1 zimlich n🍦e Sprache
 
 **2k18** ist eine an [2k16](https://github.com/HerrLevin/2k16-spec) angelehnte Programmiersprache. Sie wurde grundlegend bei der Entwicklung des Vongpiler überarbeitet.
 
@@ -28,7 +28,7 @@ gez. Das Vongpiler Team.
 ```2k18
 was ist das für 1 code?
     [code]
-1 nicer!!!
+1 nicer!!! (Alternativ: 1 n🍦r!!!)
 ```
 
 ## Halo Wörlt (AAL)
@@ -45,10 +45,11 @@ was ist das für 1 code?
 
 ## Kommentare
 
-> Ein einzeiliger Kommentar wird mit einem :X eingeleitet.
+> Ein einzeiliger Kommentar wird mit einem :X oder 🤐 eingeleitet.
 
 ```2k18
 [code] :X Das ist 1 nicer komentar!
+[code] 🤐 Das ist 1 nicer kommentar!
 ```
 
 ## Variablen
@@ -69,10 +70,13 @@ i bims 1 [name] vong [type] gönn dir [value]!!!
 
 ### Beispiel
 
-> Die Variable `lauch` wird als Number mit einem Wert von `15` definiert.
+> Die Variable `lauch` wird als Number mit einem Wert von `15` definiert.  
+> Die Variable 🦄 wird als Boolean mit einem Wert von `nope` definiert.
 
 ```2k18
-i bims 1 lauch vong zal her gönn dir 15!!!
+i bims 1 [typ] [name] her gönn dir 15!!!
+i bims 1 zal lauch her gönn dir 15!!!
+i bims 1 isso 🦄 her gönn dir nope!!!
 ```
 
 ## Kontrollstrukturen
@@ -110,7 +114,7 @@ g zu #lauch du larry!!!
 > Gib Variablenname auf stdout aus. Mit + können Variablen und Konstanten verkettet werden.
 
 ```2k18
-gieb [variable] + "du lauch"!!!
+gieb [variable] + "du lauch" her?
 ```
 
 ## Eingabe
@@ -126,7 +130,7 @@ gieb [variable] + "du lauch"!!!
 > Operationen können wie folgt aufgerufen werden. Die Anzahl der Argumente kann beliebig groß sein.
 
 ```2k18
-was ist das für 1 [operation] vong [arg1] + [arg2] + [argn] her?
+was ist das für 1 [operation] vong [arg1] , [arg2] , [argn] her?
 ```
 
 |Operation  |Beschreibung           |
@@ -140,10 +144,16 @@ was ist das für 1 [operation] vong [arg1] + [arg2] + [argn] her?
 |isweniga   |Kleiner als(<)         |
 |same       |Und(&&)                |
 
-Beispiel
+Beispiele:
 
 > Berechne die Summe (30 + 12)
 
 ```2k18
-was ist das für 1 sume vong 30 + 12 her?
+was ist das für 1 sume vong 30 , 12 her?
+```
+
+> Berechne die Summe (30 + 12) und weise sie der Varibale 🦄 zum.
+
+```2k18
+🦄 gönn dir was ist das für 1 sume vong 30 , 12 her?
 ```
